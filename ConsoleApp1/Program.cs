@@ -71,10 +71,12 @@ namespace Refactoring
             if (orderProduct.PricingMethod == EnumPricingMethod.PerPound)
             {
                 productPrice = (orderProduct.Weight.Value * orderProduct.Price);
+                orderSummary += string.Format(" ${0} ({1} pounds at ${2} per pound)", productPrice, orderProduct.Weight, orderProduct.Price);
             }
             else if (orderProduct.PricingMethod == EnumPricingMethod.PerItem)
             {
                 productPrice = (orderProduct.Quantity.Value * orderProduct.Price);
+                orderSummary += string.Format(" ${0} ({1} items at ${2} each)", productPrice, orderProduct.Quantity, orderProduct.Price);
             }
             else
             {
@@ -82,7 +84,6 @@ namespace Refactoring
             }
 
             price += productPrice;
-            orderSummary += string.Format(" ${0} ({1} pounds at ${2} per pound)", productPrice, orderProduct.Weight, orderProduct.Price);
         }
     }
 
