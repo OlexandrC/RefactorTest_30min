@@ -1,0 +1,7 @@
+D:\GitHub_repositories\RefactorTest_30min\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\GitHub_repositories\RefactorTest_30min\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\GitHub_repositories\RefactorTest_30min\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\GitHub_repositories\RefactorTest_30min\ConsoleApp1\obj\Debug\Refactoring.csproj.AssemblyReference.cache
+D:\GitHub_repositories\RefactorTest_30min\ConsoleApp1\obj\Debug\Refactoring.csproj.CoreCompileInputs.cache
+D:\GitHub_repositories\RefactorTest_30min\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\GitHub_repositories\RefactorTest_30min\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
